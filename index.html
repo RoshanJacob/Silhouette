@@ -2,6 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
+    <link rel="stylesheet" type = "text/css" href = "style.css" />
 
     <div
       style="
@@ -22,24 +23,18 @@
     style="
       background-image: url('Images/bridgeImage.jpg');
       background-size: cover;
+      background-repeat:no-repeat; 
     "
   >
-    <div>
+    <div class = "stickyTopPageDiv">
       <ul
-        style="
-          border: 1px solid;
-          border-color: black;
-          float: right;
-          border-radius: 5px;
-          background-color: tomato;
-          color: white;
-        "
+        id = "sideDivUl"
         type="circle"
       >
-        <li style="padding: 8px"><a href="aboutme.html">About Me!</a></li>
-        <li style="padding: 8px">My Achievements</li>
-        <li style="padding: 8px">Hobbies of mine</li>
-        <li style="padding: 8px">Contact Me</li>
+        <li style="padding: 8px"><a href="aboutme.html"><div class = "sideDiv">About Me!</div></a></li>
+        <li style="padding: 8px"><a href="achievements.html"><div class = "sideDiv">My Achievements!</div></a></li>
+        <li style="padding: 8px"><a href="hobbies.html"><div class = "sideDiv">Hobbies of mine</div></a></li>
+        <li style="padding: 8px"><div class = "sideDiv">Contact Me</div></li>
       </ul>
     </div>
 
@@ -69,5 +64,10 @@
         <p align="center">Hello!</p>
       </div>
     </center>
+    
+
+    <div class = "sectionFooter">
+      This is a footer for this section.
+    </div>
   </body>
 </html>
