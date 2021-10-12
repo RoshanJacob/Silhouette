@@ -1,38 +1,41 @@
-.stickyTopPageDiv{
-    position:sticky;
-    position:-webkit-sticky;
-    top:0;
+.stickyTopPageDiv {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
-.sideDiv{
-    background-color:yellow;
-    box-shadow:1px 2px;
-    text-align: center;
-    border:0.5px solid;
-    border-radius:5px;
+.sideDiv {
+  background-color: yellow;
+  box-shadow: 1px 2px;
+  text-align: center;
+  border: 0.5px solid;
+  border-radius: 5px;
 }
 
-.sideDiv:hover{
-    background-color:blueviolet;
-    color:cornsilk;
+.sideDiv:hover {
+  background-color: blueviolet;
+  color: cornsilk;
 }
 
-#sideDivUl{
-    border: 1px solid;
-    border-color: black;
-    float: right;
-    border-radius: 5px;
-    background-color: tomato;
-    color: white;
-    box-shadow:3px 5px 4px  rgb(199, 164, 211);
+#sideDivUl {
+  border: 1px solid;
+  border-color: black;
+  float: right;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+  box-shadow: 3px 5px 4px rgb(199, 164, 211);
 }
-.sectionFooter{
-    position:fixed;
-    left:0;
-    bottom:0
+.sectionFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+#portfolioMainImage:hover {
+  box-shadow: -1px 0px 4px rgb(56, 55, 55);
 }
 /* @counter-style peas-and-carrots{
     system:fixed;
@@ -42,4 +45,3 @@ a{
 #sideDivUl:hover{
     list-style: peas-and-carrots;
 } */
-

@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
-    <link rel="stylesheet" type = "text/css" href = "style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
     <div
       style="
@@ -23,18 +23,23 @@
     style="
       background-image: url('Images/bridgeImage.jpg');
       background-size: cover;
-      background-repeat:no-repeat; 
+      background-repeat: no-repeat;
     "
   >
-    <div class = "stickyTopPageDiv">
-      <ul
-        id = "sideDivUl"
-        type="circle"
-      >
-        <li style="padding: 8px"><a href="aboutme.html"><div class = "sideDiv">About Me!</div></a></li>
-        <li style="padding: 8px"><a href="achievements.html"><div class = "sideDiv">My Achievements!</div></a></li>
-        <li style="padding: 8px"><a href="hobbies.html"><div class = "sideDiv">Hobbies of mine</div></a></li>
-        <li style="padding: 8px"><div class = "sideDiv">Contact Me</div></li>
+    <div class="stickyTopPageDiv">
+      <ul id="sideDivUl" type="circle">
+        <li style="padding: 8px">
+          <a href="aboutme.html"><div class="sideDiv">About Me!</div></a>
+        </li>
+        <li style="padding: 8px">
+          <a href="achievements.html"
+            ><div class="sideDiv">My Achievements!</div></a
+          >
+        </li>
+        <li style="padding: 8px">
+          <a href="hobbies.html"><div class="sideDiv">Hobbies of mine</div></a>
+        </li>
+        <li style="padding: 8px"><div class="sideDiv">Contact Me</div></li>
       </ul>
     </div>
 
@@ -44,10 +49,10 @@
           background-color: white;
           border: 1px solid;
           border-radius: 7px;
-          height: 600px;
-          width: 70%;
+          height: 2000px;
+          width: 80%;
           margin-top: 100px;
-          box-shadow: 5px 10px teal; ;
+          box-shadow: 5px 10px teal;
         "
       >
         <tt style="font-size: 20px"><b>Welcome to this portfolio!</b></tt>
@@ -55,19 +60,42 @@
         <img
           src="Images/placehold.jpg"
           width="500px"
-          style="margin-top: 50px"
+          style="margin-top: 50px; transition: 2s"
           alt="Placeholder image"
+          id="portfolioMainImage"
         />
         <hr width="50%" height="2px" />
         <br />
 
-        <p align="center">Hello!</p>
+        <font size="5px"><p align="center">Hello!</p></font>
+        <div
+          style="
+            background-color: white;
+            border-top: 5px solid;
+            border-image: linear-gradient(
+                to right,
+                rgb(68, 51, 51) 25%,
+                yellow 25%,
+                rgb(255, 255, 74) 50%,
+                rgb(243, 102, 102) 50%,
+                red 75%,
+                rgb(91, 214, 214) 75%
+              )
+              5;
+            box-shadow: 2px 3px 5px #292828;
+            border-radius: 7px;
+            height: 600px;
+            width: 70%;
+          "
+        >
+          <p style="font-size: 1.02vw">
+            This is a portfolio made out of HTMl (HyperText Markup Language) and
+            CSS (Cascading StyleSheets).
+          </p>
+        </div>
       </div>
     </center>
-    
 
-    <div class = "sectionFooter">
-      This is a footer for this section.
-    </div>
+    <div class="sectionFooter">This is a footer for this section.</div>
   </body>
 </html>
