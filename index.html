@@ -2,19 +2,43 @@
   <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
-    <link rel="stylesheet" type = "text/css" href = "style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@300&effect=3d-float"
+      rel="stylesheet"
+    />
 
     <div
       style="
         background-color: dodgerblue;
-        color: white;
+        /* color: white; */
         border: 1px solid;
         padding: 10px;
         box-shadow: 5px 10px black;
       "
     >
       <center>
-        <u><h1>My Portfolio</h1></u>
+        <u
+          ><b>
+            <h1
+              class="header"
+              style="font-family: 'PT Sans', sans-serif; font-size: 2vw"
+            >
+              My Portfolio
+            </h1>
+          </b>
+        </u>
       </center>
     </div>
   </head>
@@ -23,18 +47,29 @@
     style="
       background-image: url('Images/bridgeImage.jpg');
       background-size: cover;
-      background-repeat:no-repeat; 
+      background-repeat: no-repeat;
     "
   >
-    <div class = "stickyTopPageDiv">
-      <ul
-        id = "sideDivUl"
-        type="circle"
-      >
-        <li style="padding: 8px"><a href="aboutme.html"><div class = "sideDiv">About Me!</div></a></li>
-        <li style="padding: 8px"><a href="achievements.html"><div class = "sideDiv">My Achievements!</div></a></li>
-        <li style="padding: 8px"><a href="hobbies.html"><div class = "sideDiv">Hobbies of mine</div></a></li>
-        <li style="padding: 8px"><div class = "sideDiv">Contact Me</div></li>
+    <center>
+      <h1 class="hiddenMediaText">
+        Hello! This website doesn't really work well on mobiles... It's fine on
+        laptops, though!
+      </h1>
+    </center>
+    <div class="stickyTopPageDiv">
+      <ul id="sideDivUl" type="circle">
+        <li style="padding: 8px">
+          <a href="aboutme.html"><div class="sideDiv">About Me!</div></a>
+        </li>
+        <li style="padding: 8px">
+          <a href="achievements.html"
+            ><div class="sideDiv">My Achievements!</div></a
+          >
+        </li>
+        <li style="padding: 8px">
+          <a href="hobbies.html"><div class="sideDiv">Hobbies of mine</div></a>
+        </li>
+        <li style="padding: 8px"><div class="sideDiv">Contact Me</div></li>
       </ul>
     </div>
 
@@ -44,30 +79,109 @@
           background-color: white;
           border: 1px solid;
           border-radius: 7px;
-          height: 600px;
-          width: 70%;
+          height: 2000px;
+          width: 80%;
           margin-top: 100px;
-          box-shadow: 5px 10px teal; ;
+          box-shadow: 5px 10px teal;
         "
+        class="mainDiv"
       >
         <tt style="font-size: 20px"><b>Welcome to this portfolio!</b></tt>
         <br />
         <img
+          class="profilePicture"
           src="Images/placehold.jpg"
-          width="500px"
-          style="margin-top: 50px"
+          style="
+            margin-top: 50px;
+            transition: 2s;
+            max-width: 100%;
+            width: 500px;
+          "
           alt="Placeholder image"
+          id="portfolioMainImage"
         />
-        <hr width="50%" height="2px" />
+        <center><hr width="50%" height="2px" /></center>
         <br />
 
-        <p align="center">Hello!</p>
+        <font size="5px" face="'Montserrat', sans-serif"
+          ><p align="center">Hello!</p></font
+        >
+        <div
+          style="
+            background-color: white;
+            border-top: 5px solid;
+            border-image: linear-gradient(
+                to right,
+                rgb(68, 51, 51) 25%,
+                yellow 25%,
+                rgb(255, 255, 74) 50%,
+                rgb(243, 102, 102) 50%,
+                red 75%,
+                rgb(91, 214, 214) 75%
+              )
+              5;
+            box-shadow: 2px 3px 5px #292828;
+            border-radius: 7px;
+            height: 600px;
+            width: 70%;
+          "
+        >
+          <p style="font-size: 1.02vw">
+            This is a portfolio made out of HTMl (HyperText Markup Language) and
+            CSS (Cascading StyleSheets).
+          </p>
+        </div>
       </div>
     </center>
    
 
-    <div class = "sectionFooter">
-      This is a footer for this section.
+    <div class="pageFooter">
+      <p class="iconPara">
+        <center>
+          <div style="display: inline-block" class="popupDown">
+            <span class="tooltipDownText" style="left: -54%; bottom: 125%"
+              >GitHub Profile</span
+            >
+
+            <a href="https://github.com/RoshanJacob" target="about:blank"
+              ><i
+                class="fab fa-github"
+                id="iconFooter1"
+                style="font-size: 2vw; vertical-align: middle"
+              ></i
+            ></a>
+          </div>
+
+          <div style="display: inline-block" class="popupDown">
+            <span class="tooltipDownText" style="left: -48%; bottom: 125%"
+              >My YouTube Channel!</span
+            >
+
+            <a
+              href="https://www.youtube.com/channel/UCj2_03aBfZuvv-6_fBb3r0Q"
+              target="about:blank"
+              ><i
+                class="fab fa-youtube"
+                id="iconFooter2"
+                style="font-size: 2vw; vertical-align: middle"
+              ></i
+            ></a>
+          </div>
+
+          <div style="display: inline-block" class="popupDown">
+            <span class="tooltipDownText">Download the source code!</span>
+            <a
+              href="https://github.com/RoshanJacob/Silhouette"
+              target="about:blank"
+              ><i
+                class="fas fa-download"
+                id="iconFooter3"
+                style="font-size: 1.3vw; vertical-align: middle"
+              ></i
+            ></a>
+          </div>
+        </center>
+      </p>
     </div>
   </body>
 </html>
