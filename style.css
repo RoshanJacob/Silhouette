@@ -80,7 +80,7 @@ a {
 }
 .popupDown .tooltipDownText {
   visibility: hidden;
-  width: 10vw;
+  width: 200;
   line-height: 50px;
   background-color: #555;
   color: rgb(251, 251, 255);
@@ -89,7 +89,7 @@ a {
   height: 50px;
   padding: 5px auto;
   display: inline-block;
-  margin-left: -5vw;
+  margin-left: -100;
 
   position: absolute;
   z-index: 1;
