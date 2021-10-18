@@ -78,20 +78,22 @@ a {
 
 .popupDown .tooltipDownText {
   visibility: hidden;
-  opacity: 0;
-  border-radius: 5px;
-  display: inline-block;
   width: 10vw;
-  height: 30px;
   background-color: #555;
   color: rgb(251, 251, 255);
-  position: absolute;
   text-align: center;
+  border-radius: 5px;
+  padding: 5px auto;
+  margin-left: -5vw;
+
+  position: absolute;
   z-index: 1;
   bottom: 150%;
-  border: 1px solid #555;
+  left: 50%;
+
+  opacity: 0;
+
   transition: 0.3s;
-  right: -60%;
 }
 .popupDown .tooltipDownText::after {
   content: "";
