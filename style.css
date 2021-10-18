@@ -75,14 +75,18 @@ a {
   display: inline-block;
   align-self: center;
 }
-
+#individualException {
+  transform: scale(1.1);
+}
 .popupDown .tooltipDownText {
   visibility: hidden;
   width: 10vw;
+  line-height: 50px;
   background-color: #555;
   color: rgb(251, 251, 255);
   text-align: center;
   border-radius: 5px;
+  height: 50px;
   padding: 5px auto;
   display: inline-block;
   margin-left: -5vw;
