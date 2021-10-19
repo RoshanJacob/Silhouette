@@ -1,9 +1,17 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <style>
+      .cubeUnsplash{
+        transition:0.3s;
+      }
+      .cubeUnsplash:hover{
+        opacity: 0.6;
+      }
+    </style>
     <div
       style="
-        background-color: rgb(243, 180, 229);
+        background-color: rgb(53, 89, 190);
         color: white;
         border: 1px solid;
         padding: 10px;
@@ -17,5 +25,27 @@
     </div>
   </head>
 
-  <body></body>
+  <body>
+    <center>
+    <div
+        class="container"
+        style="
+          background-color: white;
+          border: 1px;
+          box-shadow: 1px 2px 4px gray;
+          margin-top: 3%;
+          width: 98%;
+          height: 100%;
+          border-radius: 6px;
+        "
+      >
+      <div class="cubeUnsplash">
+        <a href="https://unsplash.com/photos/mzmhySC0JeE"><img src="Images/prem-chandaka-mzmhySC0JeE-unsplash.png" width="100%"/></a>
+        <p style="margin-top:0.3vw; opacity:0.6; font-family:fantasy">Image sourced from Unsplash.</p>
+      </div>
+      <br>
+      <hr width="70%">
+    </div>
+  </center>
+  </body>
 </html>

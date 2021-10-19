@@ -2,6 +2,15 @@
     <head>
         <title>Achievements</title>
         <meta charset="utf-8" />
+        <style>
+            .cupcakeUnsplash{
+                transition: 0.6s;
+            }
+            .cupcakeUnsplash:hover{
+                opacity:0.6;
+            }
+
+        </style>
         <div style="background-color: rgb(243, 186, 102);
                 color: white;
                 border: 1px solid;
@@ -22,5 +31,26 @@
     </head>
 
     <body>
+        <center>
+            <div
+                class="container"
+                style="
+                  background-color: white;
+                  border: 1px;
+                  box-shadow: 1px 2px 4px gray;
+                  margin-top: 3%;
+                  width: 98%;
+                  height: 100%;
+                  border-radius: 6px;
+                "
+              >
+              <!-- https://unsplash.com/photos/ZzGvEsnDwzo -->
+              <div style="float:left" class="cupcakeUnsplash">
+                <a href="https://unsplash.com/photos/ZzGvEsnDwzo"><img src="Images/sixteen-miles-out-ZzGvEsnDwzo-unsplash.jpg" height="95%"/></a>
+                <p style="margin-top: 0.3vw; opacity: 0.6;">Image sourced from Unsplash</p>
+              </div>
+              <img src="pixel.gif" alt="|" style="width:2px; height:70%; background:#000; position: relative; left:-24%; top:15%; opacity: 0.3;" />
+            </div>            
+        </center>
     </body>
 </html>
