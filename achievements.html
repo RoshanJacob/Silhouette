@@ -9,6 +9,19 @@
             .cupcakeUnsplash:hover{
                 opacity:0.6;
             }
+            .header{
+                transition: 0.3s;
+                width: 250px;
+                border:none;
+                border-radius: 30px;
+             }
+            .header:hover{
+                background-color: rgb(184, 183, 183) ;
+                cursor: pointer;
+                border:1px solid white;
+                opacity:0.7;
+                color:black;
+             }
 
         </style>
         <div style="background-color: rgb(243, 186, 102);
@@ -19,10 +32,12 @@
         >
 
          <center>
-             <h1 style="display:inline-block">   
+             <h1 style="display:inline-block"> 
+                <div class="header">  
                 <u>      
             Achievements!
                 </u>
+                </div>
              </h1>
         </center>
         <a href="index.html" id = "back"><img src="Images/angle-double-left-solid.svg" width="25px"/></a>
@@ -47,9 +62,16 @@
               <!-- https://unsplash.com/photos/ZzGvEsnDwzo -->
               <div style="float:left" class="cupcakeUnsplash">
                 <a href="https://unsplash.com/photos/ZzGvEsnDwzo"><img src="Images/sixteen-miles-out-ZzGvEsnDwzo-unsplash.jpg" height="95%"/></a>
-                <p style="margin-top: 0.3vw; opacity: 0.6;">Image sourced from Unsplash</p>
+                <p style="margin-top: 0.3vw; opacity: 0.6; font-family: fantasy;">Image sourced from Unsplash</p>
               </div>
               <img src="pixel.gif" alt="|" style="width:2px; height:70%; background:#000; position: relative; left:-24%; top:15%; opacity: 0.3;" />
+
+
+
+              <!-- <span style="position:absolute; font-size: 1.1em; opacity: 0.7; ">
+                  <pre>Hello! My name is Roshan Jacob.</pre>
+              </span> -->
+
             </div>            
         </center>
     </body>
